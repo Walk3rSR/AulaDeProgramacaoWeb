@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Honk:MORF,SHLN@16,55.6&family=Nosifer&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: #f4f0ea;
+    color: #798252;
+    font-family: "cabin", sans-serif;
+    font-weight: 400;
+}
+header{
+    padding: 2rem;
+    background-color: #798252;
+}
+h1{
+    padding: 2rem;
+    border: 6px solid #798252;
+    border-radius: 40px;
+    margin: 12px;
+    text-align: center;
+    color: #798252;
+    font-family: "honk", sans-serif;    
+    
+}
+    h2{
+      text-align: center; ;
+    }
+    p{
+        text-align: center;
+        color: #000000;
+        font-size: 20px;
+    }
+
+ nav{
+    padding:2rem
+ }
+  li>a{
+    text-decoration: none;
+    color: #000000;
+    border: #000000 solid;
+    border-bottom: #798252;
+    padding: 0px;
+    margin: 2px;
+    font-size: 20px;
+    border-radius: 12px;
+    border-radius: 123px;
+  }
