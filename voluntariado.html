@@ -4,13 +4,13 @@
      <title>VOICES OF THE INNOCENT</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="formulario.css">
     
 </head>
 <body>
      <header> 
 
-        <h1>Seja um de nós</h1>
+        <h1 id="titulo">Seja um de nós</h1>
 
 
          <nav>
@@ -29,23 +29,27 @@
          </header>
 
          <form>
-            <fieldset>
-                <div>
+            <fieldset class="grupo">
+
+                <div class="campo">
                 <legend style="text-align: center;"> Formulário de Voluntariado</legend>
                 
-                <label>Nome completo</label>
-                <input type="text" name= "nome" id="nome">
+                <label for="nome"><strong>Nome completo</strong></label>
+                <input type="text" name= "nome" id="nome" required>
               </div>
-                <div>
-                    <label>Email</label>
-                    <input type="email" name= "email" id="email">
+
+                <div class="campo">
+                    <label for="email"><strong>E-mail</strong></label>
+                    <input type="email" name= "email" id="email" required>
                 </div>
-                <div>
-                    <label>Telefone</label>
-                    <input type="tel" name= "telefone" id="telefone"> 
+
+                <div class="campo">
+                    <label for="telefone"><strong>telefone</strong></label>
+                    <input type="tel" name= "telefone" id="telefone" required> 
                 </div>
-                <div>
-                    <label>Seu gênero</label>
+
+                <div class="">
+                    <label for="gênero"><strong>Gênero</strong> </label>
                     <label>
                     <input type="radio" name= "genero" value= "masculino"> Masculino
                     </label>
@@ -56,4 +60,9 @@
                     <input type="radio" name="genero" value="outro"> Outro
                     </label>
                 </div>
-                          <p><input type="submit" value="Enviar"></p>
+                <div class="campo">
+                    <labe><strong> Conte um pouco da sua experiência</strong></labe>
+                    <textarea rows="6" style="width: 25em;" name="experiencia" id="experiencia"></textarea>
+                </div>
+                <button class= "botao" type="submit">Enviar</button>
+            </fieldset>

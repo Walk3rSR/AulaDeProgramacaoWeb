@@ -29,20 +29,15 @@ h1{
     font-size: 40px;  
     
 }
-  nav{
-    padding:2rem
- }
-  li>a{
-    text-decoration: none;
-    color: #000000;
-    border: #000000 solid;
-    border-bottom: #798252;
-    padding:0
-    margin: 12px;
-    font-size: 20px;
-    border-radius: 12px;
-    border-radius: 123px;
-  }
+ 
+    nav ul {
+    list-style: none; /* Remove as bolinhas da lista */
+    display: flex;
+    flex-wrap: wrap; /* Permite que os links quebrem a linha em telas pequenas */
+    justify-content: center; /* Centraliza os links do menu */
+    gap: 15px;
+    }
+
     h2{
       background-color: aliceblue;
       border: 6px solid #798252;
