@@ -14,16 +14,19 @@ body{
 }
 header{
     padding: 2rem;
-    background-color: #798252;
+   
 }
 h1{
+
+   background-color: #798252;
     padding: 2rem;
     border: 6px solid #798252;
     border-radius: 40px;
     margin: 12px;
     text-align: center;
     color: #798252;
-    font-family: "honk", sans-serif;    
+    font-family: "honk", sans-serif;  
+    font-size: 40px;  
     
 }
   nav{
@@ -34,19 +37,51 @@ h1{
     color: #000000;
     border: #000000 solid;
     border-bottom: #798252;
-    padding: ;
-    margin: 1rem;
+    padding:0
+    margin: 12px;
     font-size: 20px;
     border-radius: 12px;
     border-radius: 123px;
   }
     h2{
+      background-color: aliceblue;
+      border: 6px solid #798252;
+      border-radius: 40px;
         padding: 2rem;
       text-align: center; ;
     }
     p{
-        padding: 2rem;
+        padding: 1rem;
         text-align: center;
         color: #000000;
         font-size: 20px;
     }
+
+    
+    .botao-doacao {
+    display: inline-block;
+    /* Cor de fundo e do texto */
+    background-color: #4ebe03; /* Cor azul do Mercado Pago */
+    border-radius: 40px;
+    color: #ffffff; /* Texto branco */
+
+  
+    /* Espaçamento e tamanho */
+    padding: 15px 30px;
+    border-radius: 6px; /* Bordas arredondadas */
+    font-size: 18px;
+    font-weight: bold;
+   
+    
+    
+    /* Remove o sublinhado padrão do link */
+    text-decoration: none;
+
+    /* Efeito ao passar o mouse */
+    transition: background-color 0.3s;
+}
+
+.botao-doacao:hover {
+    background-color: #007bb8; /* Um azul um pouco mais escuro */
+    
+}
