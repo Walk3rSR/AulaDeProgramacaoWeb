@@ -1,8 +1,8 @@
-/* --- Reset Básico e Estilos Gerais --- */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Honk:MORF,SHLN@16,55.6&family=Nosifer&display=swap');
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Boa prática para o layout não quebrar com padding/bordas */
+    box-sizing: border-box;
 }
 
 body {
@@ -10,36 +10,41 @@ body {
     font-family: sans-serif;
     font-size: 1em;
     color: #798252;
-    
-    /* --- A MÁGICA DA CENTRALIZAÇÃO ACONTECE AQUI --- */
-    display: flex;             /* 1. Ativa o Flexbox */
-    flex-direction: column;    /* 2. Organiza os itens em coluna (header acima do form) */
-    align-items: center;       /* 3. Centraliza tudo horizontalmente */
-    justify-content: center;   /* 4. Centraliza tudo verticalmente (opcional, bom para a página) */
-    min-height: 100vh;         /* Garante que o body ocupe a altura toda da tela */
-    padding: 20px;             /* Adiciona um respiro nas laterais em telas pequenas */
+
+    display: flex;   
+    flex-direction: column;  
+    align-items: center;   
+    justify-content: center; 
+    min-height: 100vh;  
+    padding: 20px;  
 }
 
-/* --- Estilos do Cabeçalho e Navegação --- */
 header {
     width: 100%;
-    max-width: 800px; /* Define uma largura máxima para o cabeçalho */
+    max-width: 800px; 
     margin-bottom: 20px;
 }
 
-#titulo {
-    font-family: sans-serif;
-    color: #798252;
+h1 {
+    
     text-align: center; /* A forma correta de centralizar texto */
     margin-bottom: 20px;
+    background-color: #798252;
+    padding: 2rem;
+    border-radius: 50px;
+    margin: 12px;
+    text-align: center;
+    font-family: "honk", sans-serif;  
+    font-size: 40px;  
 }
 
+
 nav ul {
-    list-style: none; /* Remove as bolinhas da lista */
+    list-style: none;
     display: flex;
-    flex-wrap: wrap; /* Permite que os links quebrem a linha em telas pequenas */
-    justify-content: center; /* Centraliza os links do menu */
-    gap: 15px; /* Espaço entre os links */
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 15px;
 }
 
 nav a {
@@ -48,14 +53,14 @@ nav a {
     font-weight: bold;
 }
 
-/* --- Estilos do Formulário --- */
+
 form {
     background-color: #fff;
     padding: 2em;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     width: 100%;
-    max-width: 600px; /* Define uma largura máxima para o formulário */
+    max-width: 600px; 
 }
 
 fieldset {
@@ -70,7 +75,6 @@ legend {
     margin-bottom: 1em;
 }
 
-/* --- Estilos dos Campos do Formulário --- */
 .campo {
     margin-bottom: 1.5em;
 }
@@ -118,4 +122,8 @@ legend {
 
 .botao:hover {
     background: #5a633c; /* Escurece um pouco no hover */
+}
+footer{
+    padding: 2rem;
+    color: #000000;
 }
