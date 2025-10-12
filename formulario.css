@@ -86,7 +86,7 @@ legend {
     font-weight: bold;
 }
 
-/* Faz os campos de texto, email, etc., ocuparem 100% da largura do formulário */
+
 .campo input[type="text"],
 .campo input[type="email"],
 .campo input[type="tel"], 
@@ -101,14 +101,14 @@ legend {
 .campo input:focus,
 .campo textarea:focus {
     background: #e0e0f8;
-    outline: none; /* Remove a borda azul padrão do foco */
+    outline: none; 
     border-color: #798252;
 }
 
-/* --- Estilo do Botão (Forma Simples e Correta) --- */
+
 .botao {
-    display: block; /* Faz o botão ocupar a própria linha */
-    width: 100%; /* Ocupa toda a largura do container */
+    display: block; 
+    width: 100%;
     padding: 0.8em;
     font-size: 1.2em;
     background: #798252;
@@ -121,7 +121,7 @@ legend {
 }
 
 .botao:hover {
-    background: #5a633c; /* Escurece um pouco no hover */
+    background: #5a633c;
 }
 footer{
     padding: 2rem;
